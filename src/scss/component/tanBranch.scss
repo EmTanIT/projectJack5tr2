@@ -3,25 +3,15 @@
     display: flex;
     justify-content: center;
     border-top: 1px solid #9999;
-    .title{
+    .content{
         margin-top: 96px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .content{
-            font-size: 54px;
-            font-weight: 900;
-            margin-right: 2px;
+        font-size: 54px;
+        font-weight: 900;
+        span{
+            color: red;
+            font-size: 80px;
+            font-weight: 800;
         }
-        .dot{
-            margin-top: 30px;
-            display: block;
-            background-color: red;
-            border-radius: 50%;
-            width: 10px;
-            height: 10px;
-        }
-        
     }
     .table_card{
         margin-top: 110px;
