@@ -1,0 +1,158 @@
+.footer{
+    .container{
+        .text1{
+            .sub{
+                text-align: center;
+                font-weight: bolder;
+                padding: 75px 0px 55px 0px;
+                font-size: 46px;
+                span{
+                    font-size: 60px;
+                    color: #e0203a;
+                }
+            }
+        }
+        .des{
+            text-align: center;
+            padding-bottom: 0px;
+            display: inline;
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            padding: 74px 0px 147px 0px;
+            .search-bar{
+                display: flex;
+                align-items: center;
+                position: absolute;
+                padding-left: 31px;
+                width: 571px;
+                height: 50px;
+                background-color: #f8f8f8;
+                border-radius: 40px;
+                .subcribe{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    right: 0px;
+                    width: 180px;
+                    height: 50px;
+                    background-image: linear-gradient(#d90646,#eb402c);
+                    border-radius: 40px;
+                    color: white;
+                    font-weight: bold;
+                    box-shadow: 0px 7px 12px 2px #f8d0d7;
+                }
+            }
+        }
+        .logo{
+            padding-top: 102px;
+            padding-bottom: 70px;
+            .imgBx{
+                width: 160px;
+                height: 160px;
+                margin: 0 auto;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .text2{
+            .sub{
+                text-align: center;
+                font-weight: bolder;
+                padding: 0px 0px 54px 0px;
+                font-size: 46px;
+                span{
+                    font-size: 60px;
+                    color: #e0203a;
+                }
+            }
+        }
+        .des{
+            text-align: center;
+            padding-top: 54px;
+            padding-bottom: 63px;
+        }
+        .appstore{
+            padding: 64px 0px 148px 0px;
+            .imgBx{
+                width: 183px;
+                height: 60px;
+                margin: 0 auto;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 50px;
+            .left{
+                .menu-list{
+                    display: flex;
+                    .menu-item{
+                        list-style-type: none; 
+                        padding: 46px 32px 43px 54px;
+                    }
+                }
+            }
+            .right{
+                .button{
+                    width: 200px;
+                    height: 50px;
+                    background-color: #f8f8f8;
+                    border-radius: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    .arrow{
+                        width: 10px;
+                        height: 10px;
+                        border-right: 1px solid black;
+                        border-bottom: 1px solid black;
+                        transform: rotate(45deg);
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 948px) {
+    .bottom{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .left{
+        .menu-list{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}
+@media (max-width: 595px) {
+    .footer{
+        .container{
+            .box{
+                .search-bar{
+                    width: 100%;
+                    transition: .5s;
+                    position: relative;
+                    .subcribe{
+                        height: 100%;
+                        transition: .5s;
+                        position: absolute;
+                    }
+                }
+            }
+        }
+    }
+}

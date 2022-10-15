@@ -1,0 +1,46 @@
+.easyMessage {
+    .container {
+        .nav-message {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .img-list {
+                list-style-type: none;
+                // position: relative;
+                margin-right: 290px;
+                .img-item_1 {
+                    img {
+                        position: relative;
+                        left: 150px;
+                        top: 60px;
+                    }
+                }
+                .img-item_2 {
+                    img {
+                        position: absolute;
+                        left: 125px;
+                        top: 15px;
+                        z-index: -1;
+                    }
+                }
+            }
+            .text {
+                .text-content {
+                    display: flex;
+                    align-items: center;
+                    h1 {
+                        font-size: 300%;
+                    }
+                    .text-dot {
+                        height: 15px;
+                        width: 15px;
+                        background-color: #bbb;
+                        border-radius: 50%;
+                        display: inline-block;
+                        background-color: red;
+                    }
+                }
+            }
+        }
+    }
+}
