@@ -7,18 +7,11 @@
             height: 800px;
             align-items: center;
             justify-content: center;
-            @media (max-width: 750px) {
-                flex-wrap: wrap;
+            @media (max-width: 1020px) {
                 .img-list {
-                    .img-item_1 {
-                        z-index: auto;
-                    }
-                    .img-item_2 {
-                        position: relative;
-                    }
-                }
-                .text {
-                    display: block;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
                 }
             }
             .img-list {
