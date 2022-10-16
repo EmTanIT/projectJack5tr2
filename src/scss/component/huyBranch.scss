@@ -6,7 +6,14 @@
         margin: auto;
         padding: 0%;
         box-sizing: border-box;
-
+        @media (max-width: 1300px){
+            width: auto;
+            height: 800px;
+        }  
+        @media (max-width: 1000px){
+            width: auto;
+            height: 600px;
+        }
         // @media (max-width: 1500px){
         //     width: 80%;
         //     transition: 0.5s;
@@ -112,7 +119,9 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                
+                @media (max-width: 1100px){
+                    width: 300px;
+                }
                 .top-image{
                     display: flex;
                     position: relative;
@@ -122,8 +131,8 @@
                     @media (max-width : 1300px){
                         display: flex;
                         position: relative;
-                        top: 16%;
-                        left: -7.5%;
+                        top: 20%;
+                        left: -8.5%;
                             img{
                                 max-width: 80%;  
                                 height: auto;  
@@ -132,8 +141,8 @@
                     @media (max-width: 1000px){
                         display: flex;
                         position: relative;
-                        top: 0%;
-                        left: -18.5%;
+                        top: 7%;
+                        left: -20.5%;
                             img{
                                 max-width: 50%;  
                                 height: auto;  
@@ -150,25 +159,24 @@
                     top: -83%;
                     left: 19.1%;
                     z-index: 1;
-                    @media (max-width : 1500px){
+                    @media (max-width : 1300px){
                         display: flex;
                         position: relative;
-                        top: -74%;
-                        left: 7.5%;
+                        top: -75%;
+                        left: 34%;
                         img{
                             
-                            max-width: 80%;  
+                            max-width: 70%;  
                             height: auto;  
                             }
                         }
                     @media (max-width : 1000px){
                             display: flex;
                             position: relative;
-                            top: -56%;
-                            left: -6.5%;
-                            img{
-                                
-                                max-width: 50%;  
+                            top: -69%;
+                            left: 7.5%;
+                            img{        
+                                max-width: 40%;  
                                 height: auto;  
                                 }
                             }
