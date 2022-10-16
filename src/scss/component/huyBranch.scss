@@ -21,12 +21,23 @@
         .content{
             display: flex;
             position: relative;
-            justify-content: space-around;
+            // justify-content: space-around;
             flex-wrap: nowrap;
             width: 100%;
             height: 100%;
             transform: translate(0%, -15%);
             // transform: translate(0%,-30%);
+            @media (max-width: 750px) {
+                flex-wrap: wrap;
+                .right-content {
+                    .top-image {
+                        z-index: auto;
+                    }
+                    .bottom-image{
+                        position: relative;
+                    }
+                }
+            }
             .left-content{
                 display: flex;
                 position: relative;
@@ -118,78 +129,57 @@
                     }
             }
             .right-content{
+                margin-left: 40px;
+                padding-top: 170px;
                 display: flex;
                 position: relative;
-                width: 60%;
-                height: 60%;
-                
-                transform: translate(0%, 60%);
-                flex-wrap: nowrap;
+                width: auto;
+                height: 80%;
                 flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                @media (max-width: 750px){
-                    width: 300px;
-                }
+                // transform: translate(0%, 81%);
+                transform: translate(0%, 20%);
                 @media (max-width: 750px){
                     display: flex;
-                    position: relative;
                     flex-wrap: wrap;
-                    transform: translate(0%, 113%);
-                        // s
+                    justify-content: center;
+                    // .top-image{
+                    //     // position: relative;
+                    // }
+                    .bottom-image{
+                        position: relative;
+                        
+                    }
+                    
                 }
                 .top-image{
-                    display: flex;
-                    position: relative;
-                    top: 30%;
-                    left: -0.5%;
-                    z-index: 5;
-                    @media (max-width : 1300px){
-                        display: flex;
-                        position: relative;
-                        top: 22%;
-                        left: -9.5%;
+                    // position: absolute;
+                    img{
+                        top: 0px;
+                        left: 75px;
+                        z-index: 1;
                     }
-                    @media (max-width: 750px){
-                        display: flex;
-                        position: relative;
-                        top: -2%;
-                        left: -10%;
-                            // s
-                    }
+                    
+                    
                 }
 
                 .bottom-image{
-                    display: flex;
-                    position: relative;
-                    top: -111%;
-                    left: 19.1%;
-                    z-index: 1;
-                    box-shadow: 0px 10px 20px 15px #eee;
-                    @media (max-width : 1300px){
-                        // display: flex;
-                        position: relative;
-                            top: -92%;
-                            left: 8%;
-                        // img{
-                            
-                        //     max-width: 80%;  
-                        //     height: auto;  
-                        //     }
+                    img{
+                        position: absolute;
+                        top: 90px;
+                        left: 225px;
+                        z-index: -5;
+                        box-shadow: 0px 10px 20px 15px #eee;
                     }
-                    @media (max-width : 750px){
-                            // display: flex;
-                            position: relative;
-                            top: -61%;
-                            left: -122%;
-                            // img{        
-                            //     max-width: 65%;  
-                            //     height: auto;  
-                            //     }
-                            }
+                    @media (max-width: 750px){
+                        img{
+                            position: absolute;
+                            top: 20px;
+                            left: 30px;
+                        }
                     }
                 }
             }
         }
     }
+}
 
