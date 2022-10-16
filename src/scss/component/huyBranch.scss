@@ -38,7 +38,7 @@
                 transform: translate(30%,0%);
                 flex-direction: column;
                 justify-content: center;
-                @media (max-width: 1400px){
+                @media (max-width: 1300px){
                     transform: translate(10%,0%);
                     transition: 5s;
                 }
@@ -53,7 +53,7 @@
                         display: flex;
                         position: relative;
                         width: 100%;
-                        @media (max-width: 1500px){
+                        @media (max-width: 1300px){
                             width: auto;
                             transition: 0.5s;
                         }
@@ -63,12 +63,12 @@
                         font-size: 60px;
                         @media (max-width: 1300px){
                             width: auto;
-                            font-size: 40px;
+                            font-size: 45px;
                             transition: 6s;
                         }  
                         @media (max-width: 1000px){
                             width: auto;
-                            font-size: 30px;
+                            font-size: 40px;
                             transition: 4s;
                         }
                         // @media (max-width: 1500px){
@@ -80,12 +80,12 @@
                         span{
                             @media (max-width: 1300px){
                                 width: auto;
-                                font-size: 40px;
+                                font-size: 45px;
                                 transition: 6s;
                             } 
                             @media (max-width: 1000px){
                                 width: auto;
-                                font-size: 35px;
+                                font-size: 40px;
                                 transition: 4s;
                             }
                             font-size: 80px;
@@ -104,7 +104,7 @@
                         } 
                         @media (max-width: 1000px){
                             width: 60%;
-                            font-size: 50%;
+                            font-size: 9    0%;
                             line-height: 20px;
                         }
                     }
@@ -119,20 +119,20 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                @media (max-width: 1100px){
+                @media (max-width: 1000px){
                     width: 300px;
                 }
                 .top-image{
                     display: flex;
                     position: relative;
                     top: 30%;
-                    left: 2.5%;
+                    left: -0.5%;
                     z-index: 5;
                     @media (max-width : 1300px){
                         display: flex;
                         position: relative;
-                        top: 20%;
-                        left: -8.5%;
+                        top: 22%;
+                        left: -9.5%;
                             img{
                                 max-width: 80%;  
                                 height: auto;  
@@ -141,10 +141,10 @@
                     @media (max-width: 1000px){
                         display: flex;
                         position: relative;
-                        top: 7%;
-                        left: -20.5%;
+                        top: 31%;
+                        left: -27.5%
                             img{
-                                max-width: 50%;  
+                                max-width: 80%;  
                                 height: auto;  
                                 }
                     }
@@ -162,21 +162,21 @@
                     @media (max-width : 1300px){
                         display: flex;
                         position: relative;
-                        top: -75%;
-                        left: 34%;
+                            top: -92%;
+                            left: 8%;
                         img{
                             
-                            max-width: 70%;  
+                            max-width: 80%;  
                             height: auto;  
                             }
                         }
                     @media (max-width : 1000px){
                             display: flex;
                             position: relative;
-                            top: -69%;
-                            left: 7.5%;
+                            top: -92%;
+                            left: 34.5%;
                             img{        
-                                max-width: 40%;  
+                                max-width: 65%;  
                                 height: auto;  
                                 }
                             }
