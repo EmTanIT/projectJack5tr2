@@ -3,6 +3,8 @@
     .container {
         .nav-message {
             display: flex;
+            width: auto;
+            height: 800px;
             align-items: center;
             justify-content: center;
             @media (max-width: 750px) {
@@ -23,6 +25,7 @@
                 list-style-type: none;
                 position: relative;
                 margin-right: 290px;
+                flex-direction: column;
                 .img-item_1 {
                     img {
                         left: 150px;
