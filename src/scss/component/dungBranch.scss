@@ -2,24 +2,32 @@
     .container {
         .nav-message {
             display: flex;
+            width: auto;
+            height: 800px;
             align-items: center;
             justify-content: center;
             .img-list {
                 list-style-type: none;
-                // position: relative;
+                display: flex;
+                position: relative;
                 margin-right: 290px;
+                flex-direction: column;
                 .img-item_1 {
                     img {
+                        display: flex;
                         position: relative;
-                        left: 150px;
-                        top: 60px;
+                        // left: 150px;
+                        // top: 60px;
+                        transform: translate(50%,50%);
                     }
                 }
                 .img-item_2 {
                     img {
-                        position: absolute;
-                        left: 125px;
-                        top: 15px;
+                        display: flex;
+                        position: relative;
+                        // left: 125px;
+                        // top: 15px;
+                        transform: translate(11%, -61%);
                         z-index: -1;
                     }
                 }
